@@ -11,6 +11,13 @@ El programa debera imprimir en que año el usuario cumplira 100 años
 """
 # nombre = input("Nombre: ")
 # edad = int(input("Edad: "))
+# nom = input("Ingresa tu Nombre : ")
+# edad = int(input("Ingresa Tu Edad : "))
+# años = 100 - edad
+# print(años)
+# Año = 2020 + años
+# print("En el Año " + str(Año) + " tendras 100 años")
+
 
 # edad_cien_anios = (2020 - edad) + 100
 # print(nombre + " en " + str(edad_cien_anios) + " cumpliras 100 años")
@@ -20,6 +27,38 @@ EJERCICIO #2 (TRY CATCH SI EL NUMERO NO ES POSITIVO)
 Crea un programa que pida un numero entero positivo y le haga saber al usuario si es par o primo
 (PISTA: investiga el operador modulo, denotado como % en muchos lenguajes de programacion)
 """
+
+
+# a = [1, 7, 22, 90, 32, 2, 92, 85, 12]
+# b = [1, 5, 77, 22, 90, 25, 83, 100, 2, 21, 90]
+# c = []
+# d = len(b)
+# e = len(a)
+# for i in a :
+#     contador = 0
+#     for x in b :
+#         contador += 1
+#         if x==i :
+#             break
+#         if contador == d-1 :
+#                 c.append(i)
+# for i in b :
+#     contador = 0
+#     for x in a :
+#         contador += 1
+#         if x==i :
+#             break
+#         if contador == e-1 :
+#                 c.append(i)
+#
+#
+# print(c)
+# numero = int(input("Ingresa un numero entero positivo : "))
+#
+# if numero % 2 == 0 :
+#     print(str(numero) + " es par")
+# else :
+#     print(str(numero) + " es inpar")
 
 # numero = int(input("Ingresa un numero: "))
 
@@ -31,33 +70,59 @@ Crea un programa que pida un numero entero positivo y le haga saber al usuario s
 
 
 """
-EJERCICIO #3 
-Tome estas listas: 
+EJERCICIO #3
+Tome estas listas:
 a = [1, 7, 22, 90, 32, 2, 92, 85, 12]
 b = [1, 5, 77, 22, 90, 25, 83, 100, 02, 21, 90]
 y crea un programa que cree una nueva lista (o array)
 que contenga los elementos que NO se encuentran repetidos en ninguna de las dos lista anteriores
 y se imprima la lista completa (tambien se puede imprimir cada elemento de la lista)
 """
+palabra = input("Introduce una Palabra : ")
+# palabra = palabra.lower()
+# a  = []
+# palabraR = ""
+#
+# for i in palabra :
+#     a.append(i)
+#
+# for i in reversed(a) :
+#     palabraR += i
+#
+# if palabraR == palabra :
+#     print(palabra)
+#     print("Es un Palindromo")
+# else :
+#     print(palabra)
+#     print("No es un Palindromo")
+#################MEJORIA
+# word  = input("Ingrese una Palabra  : ")
+# wordl = list(word)
+# wordR =list(reversed(wordl))
+#
+# if wordl == wordR:
+#     print("Es palindromo")
+# else :
+#     print("No es palindromo")
 
 # a = [1, 7, 22, 90, 32, 2, 92, 85, 12]
 # b = [1, 5, 77, 22, 90, 25, 83, 100, 2, 21, 90]
 # c = []
 # d = len(b)
 # e = len(a)
-# for i in a : 
+# for i in a :
 #     contador = 0
 #     for x in b :
-#         contador += 1 
+#         contador += 1
 #         if x==i :
 #             break
-#         if contador == d-1 : 
+#         if contador == d-1 :
 #             c.append(i)
 
-# for i in b : 
+# for i in b :
 #     contador = 0
 #     for x in a :
-#         contador += 1 
+#         contador += 1
 #         if x==i :
 #             break
 #         if contador == e-1:
@@ -86,6 +151,23 @@ Crea un programa con un diccionario que contenga de llave un nombre
 y de valor el cumpleaños de esta persona.
 El programa pedira el nombre de la persona y se debera imprimir la fecha de su cumpleaños
 # """
+
+#inpu = input("introduce un Nuevo Nombre : ")
+# Fechas = { 'Carlos': '14 de Enero 1999' , 'Luis' : '5 de Agosto 1935'
+# , 'William': '16 de Junio 1666'}
+#
+# Fechas[inpu] = "16/02/2014"
+#
+# for i in Fechas:
+#     print(i)
+#
+#
+#
+# eleccion = input("Elija el Nombre Para ver su Fecha de Nacimiento : "  )
+#
+#
+#         print("Su feca de Nacimiento es el  " + diccionarios[eleccion])
+
 # diccionario = {'Uriel':'02/07/1996', 'Ana':'08/07/2000', 'Jorge':'01/01/2001'}
 # nombre = input("Ingresa el nombre de una persona: ")
 # print(diccionario[nombre])
@@ -107,4 +189,3 @@ El programa pedira el nombre de la persona y se debera imprimir la fecha de su c
 
 # nombre = input("Ingresa el nombre de una persona: ")
 # print(diccionario[nombre])
-
