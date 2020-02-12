@@ -152,7 +152,7 @@ y de valor el cumpleaños de esta persona.
 El programa pedira el nombre de la persona y se debera imprimir la fecha de su cumpleaños
 # """
 
-#inpu = input("introduce un Nuevo Nombre : ")
+#sinpu = input("introduce un Nuevo Nombre : ")
 # Fechas = { 'Carlos': '14 de Enero 1999' , 'Luis' : '5 de Agosto 1935'
 # , 'William': '16 de Junio 1666'}
 #
